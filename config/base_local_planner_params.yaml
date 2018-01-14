@@ -1,0 +1,29 @@
+recovery_behavior_enabled: true
+clearing_rotation_allowed: false
+
+TrajectoryPlannerROS:
+  acc_lim_th: 2.5
+  acc_lim_x: 2.5
+  acc_lim_y: 2.0
+
+  max_vel_x: 0.45
+  min_vel_x: 0.1
+  max_rotational_vel: 0.4
+  min_in_place_rotational_vel: 0.5
+  escape_vel: -0.1
+  holonomic_robot: false
+
+  yaw_goal_tolerance: 0.09
+  xy_goal_tolerance: 0.15
+  latch_xy_goal_tolerance: false
+
+  path_distance_bias: 0.4
+  goal_distance_bias: 0.6
+  
+
+
+
+
+
+
+

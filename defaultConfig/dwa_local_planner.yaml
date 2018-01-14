@@ -1,0 +1,12 @@
+recovery_behavior_enabled: true
+clearing_rotation_allowed: false
+xy_goal_tolerance: 0.07
+yaw_goal_tolerance: 0.1
+min_vel_x: 0.1
+
+goal_distance_bias: 2
+path_distance_bias: 0.2
+occdist_scale: 0.05
+
+max_trans_vel: 0.4
+max_rot_vel: 0.3

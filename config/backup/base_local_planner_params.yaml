@@ -1,0 +1,25 @@
+TrajectoryPlannerROS:
+  max_vel_x: 0.45
+  min_vel_x: 0.1
+  max_rotational_vel: 0.5
+  min_in_place_rotational_vel: 0.4   
+
+  allow_unknow: false
+
+  yaw_goal_tolerance: 0.09
+  xy_goal_tolerance: 0.20
+  latch_xy_goal_tolerance: false
+
+
+
+
+  path_distance_bias: 0.6
+  goal_distance_bias: 0.3
+
+  acc_lim_th: 2.2
+  acc_lim_x: 1.5
+  acc_lim_y: 1.5
+
+  holonomic_robot: false
+
+  
